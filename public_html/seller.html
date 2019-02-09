@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="functions.js"></script>
+    <script src="seller.js"></script>
+</head>
+<body style="background-color: rgb(245, 245, 245)">
+
+        <div class="p-2 bg-primary d-flex justify-content-around sticky-top">
+                <span class="font-weight-bolder font-italic" style="color: white; font-size: 1.5em;">ShopMobiles</span>
+                
+                </div>
+                <div class="container bg-white p-3 rounded mt-3 shadow">
+    <form>
+            
+                    <div class="form-group">
+                        <div class="row p-2">
+                            <label for="inputName">Model</label>
+                            <input type="text" class="form-control" id="inputName" >
+                        </div>
+                        <div class="row p-2">
+                                <label for="inputPrimaryCam">Primary Camera</label>
+                                <input type="text" class="form-control" id="inputPrimaryCam" >
+                        </div>
+                        <div class="row p-2">
+                                <label for="inputSecondaryCam">Secondary Camera</label>
+                                <input type="text" class="form-control" id="inputSecondaryCam" >
+                        </div>
+                        <div class="row p-2">
+                                <label for="inputRam">RAM</label>
+                                <input type="number" class="form-control" id="inputRam" >
+                        </div>
+                        <div class="row p-2">
+                                <label for="inputRom">ROM</label>
+                                <input type="number" class="form-control" id="inputRom" >
+                        </div>
+                        <div class="row p-2">
+                                <label for="inputImageURL">Image URL</label>
+                                <input type="text" class="form-control" id="inputImageURL" >
+                        </div>
+                        <div class="row p-2">
+                                <label for="inputPrice">Price</label>
+                                <input type="number" class="form-control" id="inputPrice" >
+                        </div>
+                               
+                        
+                    </div>
+               
+    </form>
+
+    <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+   
+</div>
+</body>
+</html>

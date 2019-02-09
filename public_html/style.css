@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+.cart_details{
+    position: relative;
+    font-size: 1.5em;
+}
+
+#product_list{
+   display: inline-block;
+   background-color: rgb(245, 245, 245);
+}
+
+.div>div:hover{
+    box-shadow: 5px 5px 30px rgb(165, 161, 161) ;
+}
+
+.div>div{
+    padding:1rem;
+    border-radius: 5px;
+    position: relative;
+    height:350px;
+ }
+
+#searchBar{
+    box-shadow: 1px 1px 5px rgb(43, 58, 70) ;
+}
+
+.div div button{
+    position: absolute;
+    left: 25%;
+    bottom: 10px;
+}
+
+.hello{
+    position: absolute;
+    left: 25%;
+    bottom: 10px;
+}
+
+.navBar{
+    background-color: #007BFF;
+}
+

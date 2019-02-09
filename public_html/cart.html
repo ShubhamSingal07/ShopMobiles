@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+    <script src="cart.js"></script>
+</head>
+<body>
+    <div class="p-2 bg-primary d-flex justify-content-around sticky-top">
+        <span class="font-weight-bolder font-italic" style="color: white; font-size: 1.5em;">ShopMobiles</span>
+        
+        <div class="input-group w-50" id='searchBar' >
+            <input type="text" class="form-control" placeholder="Search for mobiles"  >
+            <div class="input-group-append">
+              <button class="btn btn-light">🔍</button>
+            </div>
+          </div>
+    </div>
+    <div>
+            <div class='p-4 my-3 mx-2 shadow-sm rounded' style="background-color: rgb(245, 245, 245)">
+                <div class="d-flex justify-content-center">
+                    <div class="div w-75" id="cart_list">
+                           
+                    </div>
+                    
+                </div>
+            </div>
+    </div>
+</body>
+</html>
