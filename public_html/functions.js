@@ -87,8 +87,6 @@ function createProduct(name,imageURL,price,primaryCam,secondaryCam,ram,storage,d
     
 }
 
-
-
 function addProduct(Product){
     return $(`
     <div class="bg-white text-info m-2" style="display:inline-block; width:520px; height:280px">
