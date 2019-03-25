@@ -1,16 +1,13 @@
 const Sequelize=require('sequelize')
-const config=require('../config')
-// const db=new Sequelize('shopdb','shopper','shoppass',{
-//     host:'localhost',
-//     dialect: 'mysql',
-//     pool:{
-//         min:0,
-//         max:5
-//     },
-//     logging:true
-// })
-
-const db=new Sequelize(config.databaseURL)
+const db=new Sequelize('shopdb','shopper','shoppass',{
+    host:'localhost',
+    dialect: 'mysql',
+    pool:{
+        min:0,
+        max:5
+    },
+    logging:true
+})
 
 const Product=db.define('products',{
     id:{
